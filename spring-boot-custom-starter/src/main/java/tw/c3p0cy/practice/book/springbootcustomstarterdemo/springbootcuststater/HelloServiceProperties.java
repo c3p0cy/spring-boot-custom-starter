@@ -1,4 +1,4 @@
-package tw.c3p0cy.practice.book.springbootcuststater;
+package tw.c3p0cy.practice.book.springbootcustomstarterdemo.springbootcuststater;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

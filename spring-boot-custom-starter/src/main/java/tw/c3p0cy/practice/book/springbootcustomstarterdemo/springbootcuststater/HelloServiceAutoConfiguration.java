@@ -1,4 +1,4 @@
-package tw.c3p0cy.practice.book.springbootcuststater;
+package tw.c3p0cy.practice.book.springbootcustomstarterdemo.springbootcuststater;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

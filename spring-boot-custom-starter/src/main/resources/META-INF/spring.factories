@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-tw.c3p0cy.practice.book.springbootcuststater.HelloServiceAutoConfiguration
+tw.c3p0cy.practice.book.springbootcustomstarterdemo.springbootcuststater.HelloServiceAutoConfiguration
