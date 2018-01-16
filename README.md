@@ -115,6 +115,16 @@ public class SpringBootCustomStarterDemoApplication {
         .andReturn();
   }
 ```
+5. Unit Test via profile
+  1. Add application-custom.properties
+  2. Use @ActiveProfiles to set active profile
+  ```java
+  import org.springframework.test.context.ActiveProfiles;
+
+  @ActiveProfiles(profiles = "custom")
+  public class SpringBootCustomStarterDemoApplicationTestForCustom { ... }
+  ```
+
 ----------------------------------------------------
 ## Using Spring Boot without the parent POM
 ```xml
@@ -148,3 +158,5 @@ public class SpringBootCustomStarterDemoApplication {
 ----------------------------------------------------
 ## References:
 * [Using Spring Boot - Build systems](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html)
+* [Spring Boot – Profile based properties and yaml example](https://www.mkyong.com/spring-boot/spring-boot-profile-based-properties-and-yaml-example/)
+* [Spring profiles and Testing](https://stackoverflow.com/questions/13364112/spring-profiles-and-testing)
