@@ -9,6 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>spring-boot-custom-starter</module>
+    <module>spring-boot-custom-starter-demo</module>
   </modules>
   <packaging>pom</packaging>
 
